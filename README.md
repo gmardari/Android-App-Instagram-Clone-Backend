@@ -1,6 +1,9 @@
 # Android-App-Instagram-Clone-Backend
 The Nodejs implementation of the backend.
 
+<h2>Database</h2>
+Uses postgres for compliance and extensibility. 
+
 <h2>Data Structures</h2>
 
 Here's a breakdown of the data structures in the database: 
@@ -50,5 +53,10 @@ Stores information about the database, manages all database resources, and route
   
 <h3>test.js</h3>
 Handles the operations to run a query on the database, get user data, create content posts, and implements other needed database interactions.
+
+<h2>Running the server</h2>
+Use run.bat to cd into your nodejs path and run node on main.js.
+Use run-db.bat to start the database.
+(The above are based on where the database and nodejs paths are located on my system)
 
 
